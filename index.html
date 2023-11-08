@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Muiz Muharram" />
+  <meta name="description" content="Muiz Muharram personal website" />
+  <title>Muiz Muharram</title>
+
+  <link href="/images/logo.png" rel="shortcut icon" />
+
+  <!-- boostrap -->
+  <link rel="stylesheet" href="./vendors/boostrap/css/bootstrap.css" />
+  <!-- end boostrap -->
+
+  <!-- icon -->
+  <link rel="stylesheet" href="./vendors/boxicons-2.1.4/css/boxicons.css" />
+  <!-- end icon -->
+
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- end swiper -->
+
+  <!-- style -->
+  <link rel="stylesheet" href="./styles/style.css" />
+  <!-- end style -->
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-md-white">
+    <div class="container">
+      <a class="navbar-brand fw-bold scroll-link text-uppercase" href="#">Muiz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+          <li class="nav-item">
+            <a class="nav-link scroll-link active" aria-current="page" href="#header" id="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#portofolio">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#journey">Journey</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- header -->
+  <section class="header-section" id="header">
+    <div class="container">
+      <div class="row align-item-center justify-content-between">
+        <div class="col-md-6">
+          <p class="text-orange fw-semibold">Web Developer</p>
+          <h1 class="header-title text-uppercase fw-bold mb-5">
+            Muiz <br class="d-none d-md-block" />
+            Muharram
+          </h1>
+          <p class="gap-2">
+            I'm a website developer who specializes in building (and sometimes
+            designing) great digital experiences.
+          </p>
+          <button onclick="redirectToWhatsApp()" class="btn btn-orange btn-lg fw-semibold">
+            Hire Me
+          </button>
+
+          <div class="d-flex align-items-center gap-5 mt-5">
+            <div class="d-flex align-items-center gap-2">
+              <h2 class="header-skill fw-bold mb-0">8+</h2>
+              <p class="text-secondary fs-7 mb-0">
+                Months of <br />
+                Experience
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <h2 class="header-skill fw-bold mb-0">5+</h2>
+              <p class="text-secondary fs-7 mb-0">
+                Completed<br />
+                Project
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <h2 class="header-skill fw-bold mb-0">8+</h2>
+              <p class="text-secondary fs-7 mb-0">
+                Hours<br />
+                Leaning/Week
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 d-none d-md-block">
+          <img src="/images/header-photo.png" class="header-img" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- header -->
+
+  <!-- about -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+          <p class="text-orange text-center">About Me</p>
+          <h2 class="section-title text-center mb-5">
+            Freelance Website Developer
+          </h2>
+          <p class="text-center">
+            I am a web developer Talented and experienced, with expertise in
+            NodeJS and Laravel. During college, I have taken several freelance
+            jobs for sharpen my skills in develop successful and appropriate
+            websites with the client's wishes.
+          </p>
+          <div class="d-flex justify-content-center">
+            <a href="https://drive.google.com/file/d/1HkWzNTNz1lswr2I9gJZT_Qet9dBLdbCA/view?usp=drive_link"
+              class="btn btn-orange btn-lg fw-semibold">
+              Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about -->
+
+  <!-- portofolio -->
+  <section class="portofolio-section" id="portofolio">
+    <div class="container">
+      <p class="text-orange fe-semibold">Portofolio</p>
+      <h2 class="section-title mb-5">Selected works</h2>
+
+      <div class="swiper portofolio-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/portofolio-1.png" alt="#" class="card-img-top rounded mb-3" />
+                <h6 class="fw-semibold">Rafi Klinik</h6>
+                <a href="https://github.com/awimaulana19/algoritma-greddy" class="text-orange">
+                  Detail Portofolio
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/portofolio-2.png" alt="#" class="card-img-top rounded mb-3" />
+                <h6 class="fw-semibold">Antrian Website PWA</h6>
+                <a href="https://github.com/awimaulana19/backend-pwa" class="text-orange">
+                  Detail Portofolio
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/portofolio-3.png" alt="#" class="card-img-top rounded mb-3" />
+                <h6 class="fw-semibold">E Surat</h6>
+                <a href="https://github.com/Ikhsandi-Ramadani/e-surat" class="text-orange">
+                  Detail Portofolio
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/portofolio-4.png" alt="#" class="card-img-top rounded mb-3" />
+                <h6 class="fw-semibold">Ensiklopedia Alat Laboratorium</h6>
+                <a href="https://github.com/Muiz021/ensiklopediaAlatLab" class="text-orange">
+                  Detail Portofolio
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/portofolio-more.png" alt="#" class="card-img-top rounded mb-3" />
+                <h6 class="fw-semibold">More</h6>
+                <a href="https://github.com/Muiz021" class="text-orange">
+                  Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-end gap-3 mt-3">
+          <button class="btn btn-light d-flex align-items-center justify-content-center btn-next">
+            <i class="bx bx-left-arrow-alt fs-5"></i>
+          </button>
+          <button class="btn btn-light d-flex align-items-center justify-content-center btn-prev">
+            <i class="bx bx-right-arrow-alt fs-5"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end portofolio -->
+
+  <!-- skills -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-6">
+          <p class="text-orange fw-semibold">Skills</p>
+          <h2 class="section-title text-white mb-5">Programming Skills</h2>
+          <div class="mb-3">
+            <div class="d-flex align-item-center justify-content-between mb-2">
+              <p class="text-white text-uppercase fw-semibold mb-0">
+                Javascript
+              </p>
+              <p class="text-white text-uppercase mb-0">20%</p>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="width: 20%"></span>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="d-flex align-item-center justify-content-between mb-2">
+              <p class="text-white text-uppercase fw-semibold mb-0">NodeJS</p>
+              <p class="text-white text-uppercase mb-0">10%</p>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="width: 10%"></span>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="d-flex align-item-center justify-content-between mb-2">
+              <p class="text-white text-uppercase fw-semibold mb-0">PHP</p>
+              <p class="text-white text-uppercase mb-0">40%</p>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="width: 40%"></span>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="d-flex align-item-center justify-content-between mb-2">
+              <p class="text-white text-uppercase fw-semibold mb-0">
+                Laravel
+              </p>
+              <p class="text-white text-uppercase mb-0">30%</p>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="width: 30%"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 d-none d-md-block">
+          <img src="/images/skill-photo.jpg" class="skill-img" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end skills -->
+
+  <!-- journey -->
+  <section class="journey-section" id="journey">
+    <div class="container">
+      <div class="row align-items-center">
+        <p class="text-orange fw-semibold">Employment & Education</p>
+        <h2 class="section-title mb-5">My Experience Journey</h2>
+
+        <div class="row py-3 border-bottom journey-periode-item">
+          <div class="col-md-4">August, 2020 - Now</div>
+          <div class="col-md-4">Student - Information Systems</div>
+          <div class="col-md-4">
+            Universitas Islam Alauddin Alauddin Makassar
+          </div>
+        </div>
+        <div class="row py-3 border-bottom journey-periode-item">
+          <div class="col-md-4">September, 2021 - Now</div>
+          <div class="col-md-4">Freelance - Website Developer</div>
+          <div class="col-md-4">Online place</div>
+        </div>
+        <div class="row py-3 border-bottom journey-periode-item">
+          <div class="col-md-4">February, 2023 - July, 2023</div>
+          <div class="col-md-4">Student - Cloud Computing</div>
+          <div class="col-md-4">
+            Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end journey -->
+
+  <!-- contact -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <p class="text-orange text-center">Contact</p>
+        <h2 class="section-title text-center mb-5">
+          Don't hesitate to contact me
+        </h2>
+        <div class="col-md-6">
+          <form action="https://formspree.io/f/mleyvzgr" method="POST" class="form">
+            <div class="mb-3">
+              <label class="form-label">Nama</label>
+              <input type="text" class="form-control" id="Nama" placeholder="Your full name" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Email address" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea name="message" id="message" class="form-control" rows="7" cols="20"
+                placeholder="Tell me about it"></textarea>
+            </div>
+            <div class="mb-3 d-flex justify-content-center">
+              <button type="submit" class="btn btn-orange">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact -->
+
+  <!-- footer -->
+  <footer class="footer" id="footer">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row align-items-center text-white">
+          <div class="col-md-6 py-4">
+            <p class="">Follow me on</p>
+            <div class="col-md-12">
+              <div class="d-flex">
+                <div class="col-md-6">
+                  <div class="footer-information pb-2 d-flex align-items-center">
+                    <i class="bx bxs-phone fs-4 px-2"></i>
+                    <div class="footer-information-detail">
+                      <p class="fs-7 mb-0">Call Me</p>
+                      <span>+6281343671284</span>
+                    </div>
+                  </div>
+                  <div class="footer-information py-2 d-flex align-items-center">
+                    <i class="bx bxs-envelope fs-4 px-2"></i>
+                    <div class="footer-information-detail">
+                      <p class="fs-7 mb-0">Email</p>
+                      <span>muis.mm021@gmail.com</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="footer-information pb-2 d-flex align-items-center">
+                    <i class="bx bx-current-location fs-4 px-2"></i>
+                    <div class="footer-information-detail">
+                      <p class="fs-7 mb-0">Location</p>
+                      <span>Makassar</span>
+                    </div>
+                  </div>
+                  <div class="footer-information py-2 d-flex align-items-center">
+                    <i class="bx bxl-github fs-4 px-2"></i>
+                    <div class="footer-information-detail">
+                      <p class="fs-7 mb-0">Github</p>
+                      <span>@Muiz021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 py-5">
+            <h4 class="text-center">Menu</h4>
+            <div class="d-flex justify-content-between px-5 mx-5">
+              <div class="col-md-6 align-items-center d-inline-grid justify-content-center">
+                <a href="#header" class="title text-white fs-7 py-2">Home</a>
+                <a href="#about" class="title text-white fs-7 py-2">About</a>
+                <a href="#portofolio" class="title text-white fs-7 py-2">Portofolio</a>
+              </div>
+              <div class="col-md-6 d-inline-grid justify-content-center">
+                <a href="#skills" class="title text-white fs-7 py-2">Skills</a>
+                <a href="#journey" class="title text-white fs-7 py-2">Journey</a>
+                <a href="#contact" class="title text-white fs-7 py-2">Contact</a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <p class="text-center fs-7">
+            @Created by <strong class="">Muiz Muharram</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <!-- boostrap -->
+  <script src="./vendors/boostrap/js/bootstrap.bundle.js"></script>
+  <!-- end boostrap -->
+
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- end swiper -->
+
+  <script src="/js/script.js"></script>
+</body>
+
+</html>

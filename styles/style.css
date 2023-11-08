@@ -1,0 +1,148 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Radio+Canada:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Unbounded:wght@300;700&display=swap");
+
+/* VARIABLES */
+:root{
+    --primary-color:#39A7FF;
+    --dark-color:#0F0F0F;
+    --gray-color:gray;
+
+    --h1-font-size:40px;
+    --h2-font-size:32px;
+    --small-font-size:14px;
+}
+
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none ;
+}
+
+/* GLOBAL CSS */
+section{
+    padding: 70px 0;
+}
+
+section .section-title{
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-orange{
+    background-color: var(--primary-color);
+    color: white;
+}
+.btn-orange:hover{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.text-orange{
+    color: var(--primary-color);
+}
+
+.fs-7{
+    font-size: var(--small-font-size);
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+.bg-orange{
+    background-color: var(--primary-color);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+/* CSS PER SECTION */
+
+/* NAVBAR */
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:active{
+    color: var(--primary-color);
+}
+
+@media screen and (max-width:990px) {
+ .bg-md-white{
+    background-color: white;
+ }
+
+}
+
+/* HEADERS */
+.header-section .header-title{
+    font-size: var(--h1-font-size);
+}
+
+.header-section .header-skill{
+    color: var(--dark-color);
+}
+
+.header-section .header-skill:hover{
+    color: var(--primary-color);
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+.header-section .header-img{
+    width: 80%;
+}
+
+
+/* PORTOFOLIO */
+.portofolio-section .card .card-img-top{
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* SKILLS */
+.skills-section{
+    background-color: #030304;
+}
+
+.skills-section .progress-bar{
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: var(--gray-color);
+}
+
+.skills-section .progress-bar .progress{
+    background-color: var(--primary-color);
+}
+
+.skills-section .skill-img{
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer .container-fluid{
+    background-color: var(--primary-color);
+}
+
